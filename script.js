@@ -1,6 +1,6 @@
 // ---------- config: replace with your own ----------
-const SUBSTACK_FEED_URL = "https://sugarcain.substack.com/feed"; // your Substack RSS feed
-const GITHUB_USERNAME   = "sugarcain";                            // your GitHub username
+const SUBSTACK_FEED_URL = "https://sugrcain.substack.com/feed"; // your Substack RSS feed
+const GITHUB_USERNAME   = "sugrcain";                            // your GitHub username
 const REPO_COUNT        = 2;
 
 // ---------- Substack RSS ----------
