@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resume · SugarCain</title>
+<meta name="description" content="Resume">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .resume-list{ margin:0; padding-left:1.1rem; font-size:.9rem; line-height:1.8; }
+  .entry{ margin-bottom:1.25rem; }
+  .entry:last-child{ margin-bottom:0; }
+  .entry-head{ display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+  .entry-title{ font-size:.95rem; }
+  .entry-date{ font-size:.8rem; color:var(--muted); white-space:nowrap; }
+  .entry-sub{ font-size:.82rem; color:var(--muted); margin:.15rem 0 .4rem; }
+  .tag-row{ display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1rem; }
+  .tag{
+    border:1px solid var(--line);
+    padding:.25rem .6rem;
+    font-size:.75rem;
+    color:var(--muted);
+  }
+</style>
+</head>
+<body class="fade-in-up">
+
+  <header class="page-header">
+     <a href="./">
+     <img src="assets/header.png" style="max-height: 25px; max-width: 25px;" alt="Home">
+     </a>
+    <nav>
+
+      <a href="./about">About</a>
+      <a href="https://substack.com/@sugarcain/posts">Blog</a>
+      <a href="https://www.linkedin.com/in/abel-mateo/">LinkedIn</a>
+    </nav>
+  </header>
+
+  <div id="container">
+    <main>
+      <article class="mainContent">
+
+        <h1 id="title" class="homeTitle">Resume</h1>
+
+        <section class="box">
+          <h2 id="experience">Experience <a class="header-anchor" href="#experience">#</a></h2>
+          <div class="resume-list">
+            <div class="entry">
+              <div class="entry-head">
+                <span class="entry-title">Role — Company</span>
+                <span class="entry-date">20XX — Present</span>
+              </div>
+              <p class="entry-sub">What I did, in a sentence or two.</p>
+            </div>
+            <div class="entry">
+              <div class="entry-head">
+                <span class="entry-title">Role — Company</span>
+                <span class="entry-date">20XX — 20XX</span>
+              </div>
+              <p class="entry-sub">What I did, in a sentence or two.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="box">
+          <h2 id="education">Education <a class="header-anchor" href="#education">#</a></h2>
+          <div class="resume-list">
+            <div class="entry">
+              <div class="entry-head">
+                <span class="entry-title">Degree — Institution</span>
+                <span class="entry-date">20XX — 20XX</span>
+              </div>
+              <p class="entry-sub">Field of study, honors, or relevant coursework.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="box">
+          <h2 id="skills">Skills <a class="header-anchor" href="#skills">#</a></h2>
+          <div class="tag-row">
+            <span class="tag">Skill One</span>
+            <span class="tag">Skill Two</span>
+            <span class="tag">Skill Three</span>
+            <span class="tag">Skill Four</span>
+          </div>
+        </section>
+
+      </article>
+    </main>
+  </div>
+
+  <footer class="page-footer">
+    <div>
+      <span>2026</span> ·
+      <a href="./about">SugarCain</a>.
+      <div class="footer-links" style="margin-top:.4rem;">
+        <a href="/contact/">Contact</a>
+      </div>
+    </div>
+
+    <a class="footer-github" href="https://github.com/sugrcain" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+                 -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07
+                 -1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82
+                 .64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+                 .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+                 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+      </svg>
+      GitHub
+    </a>
+  </footer>
+
+</body>
+</html>

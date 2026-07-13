@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+.oooooo..o                                             .oooooo.              o8o
+d8P'    `Y8                                            d8P'  `Y8b             `"'
+Y88bo.      oooo  oooo   .oooooooo  .oooo.   oooo d8b 888           .oooo.   oooo  ooo. .oo.
+`"Y8888o.  `888  `888  888' `88b  `P  )88b  `888""8P 888          `P  )88b  `888  `888P"Y88b
+    `"Y88b  888   888  888   888   .oP"888   888     888           .oP"888   888   888   888
+oo     .d8P  888   888  `88bod8P'  d8(  888   888     `88b    ooo  d8(  888   888   888   888
+8""88888P'   `V88V"V8P' `8oooooo.  `Y888""8o d888b     `Y8bood8P'  `Y888""8o o888o o888o o888o
+                       d"     YD
+                       "Y88888P'
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SugarCain</title>
+<meta name="description" content="Personal Website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in-up">
+
+  <header class="page-header">
+     <a href="./">
+     <img src="assets/header.png" style="max-height: 25px; max-width: 25px;" alt="Home">
+     </a>
+    <nav>
+      <a href="./about">About</a>
+      <a href="https://substack.com/@sugarcain/posts">Blog</a>
+      <a href="https://www.linkedin.com/in/abel-mateo/">LinkedIn</a>
+    </nav>
+  </header>
+
+  <div id="container">
+    <main>
+      <article class="mainContent">
+
+        <figure>
+
+            <img src="assets/recluse.jpg" style="max-height: 800px; max-width: 900px;">
+
+        </figure>
+
+        <h1 id="title" class="homeTitle">SugarCain</h1>
+
+        <div class="listing">
+          <div class="projects">
+            <a href="./resume">
+                <img id="img-port" src="assets/converse.jpg" alt="Resume">
+              <h3 id="resume">Resume <span class="header-anchor">#</span></h3>
+            </a>
+            <p>My training, experiences and skills.</p>
+          </div>
+          <div class="projects">
+            <a href="http://github.com/sugarcain/placeholder">
+                <img id="img-port" src="assets/pwrlines.jpg" alt="Featured Project">
+              <h3 id="fproject">Featured Project <span class="header-anchor">#</span></h3>
+            </a>
+            <p>Something I'm currently working on.</p>
+          </div>
+          <div class="projects">
+            <a href="./hub">
+                <img id="img-port" src="assets/portal.gif" alt="The Hub">
+              <h3 id="hub">The Hub <span class="header-anchor">#</span></h3>
+            </a>
+            <p>Relevant links and resources.</p>
+          </div>
+        </div>
+
+        <!-- ===== Substack RSS feed ===== -->
+        <section id="rssFeed" class="box">
+          <h2 id="feed">Substack Feed <a class="header-anchor" href="#feed">#</a></h2>
+          <ul id="rssFeedList">
+            <li class="rss-empty">Loading posts…</li>
+          </ul>
+          <a class="btn" href="#" id="rssFeedLink" target="_blank" rel="noopener noreferrer">Check out the Stack</a>
+        </section>
+
+        <div class="col colTwo">
+          <!-- ===== GitHub repos ===== -->
+          <section id="githubRepos" class="box">
+            <h2 id="repositorios">Repositories <a class="header-anchor" href="#repositorios">#</a></h2>
+            <ul id="githubRepoList">
+              <li class="repo-desc">Loading Repositories…</li>
+            </ul>
+            <a class="btn" href="#" id="githubProfileLink" target="_blank" rel="noopener noreferrer">View my GitHub</a>
+          </section>
+
+          <section class="box">
+            <a href="">
+              <div style="display:flex; gap:.75rem; align-items:flex-start;">
+                <img src="assets/redpander.jpg" style="width:48px;height:48px;border:1px solid var(--line);" alt="">
+                <div>
+                  <div style="font-size:.8rem; color:var(--muted); margin-bottom:.3rem;">
+                    <span>@SugarCain</span> · <span>Updated 07.12.2026</span>
+                  </div>
+                  <p style="margin:0; font-size:.85rem;">I don't need sleep, I need answers.</p>
+                </div>
+              </div>
+            </a>
+          </section>
+        </div>
+
+      </article>
+    </main>
+  </div>
+
+  <footer class="page-footer">
+    <div>
+      <span>2026</span> ·
+      <a href="./about">SugarCain</a>.
+      <div class="footer-links" style="margin-top:.4rem;">
+        <a href="/contact/">Contact</a>
+      </div>
+    </div>
+
+    <!-- bottom-right: GitHub link -->
+    <a class="footer-github" href="https://github.com/sugrcain" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+                 -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07
+                 -1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82
+                 .64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+                 .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+                 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+      </svg>
+      GitHub
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
